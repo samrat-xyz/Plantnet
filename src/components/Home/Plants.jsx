@@ -11,7 +11,7 @@ const Plants = () => {
       return result.data
     },
   });
-  console.log(data)
+  // console.log(data)
   if(isLoading) return <LoadingSpinner></LoadingSpinner>
 
   return (
